@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Texting/Calling People" />
+
+    <EditText
+        android:id="@+id/textJose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Jose" />
+
+    <EditText
+        android:id="@+id/phone1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone"
+        tools:text="651-600-5049" />
+
+    <Button
+        android:id="@+id/buttonText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Text" />
+
+    <Button
+        android:id="@+id/buttonCall1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Call" />
+
+    <TextView
+        android:id="@+id/textPeter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Peter" />
+
+    <EditText
+        android:id="@+id/phone2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone"
+        tools:text="320-232-9127" />
+
+    <Button
+        android:id="@+id/buttonText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Text" />
+
+    <Button
+        android:id="@+id/buttonCall2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Call" />
+
+    <TextView
+        android:id="@+id/textErika"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Erika" />
+
+    <EditText
+        android:id="@+id/phone3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone"
+        tools:text="320-232-7672" />
+
+    <Button
+        android:id="@+id/buttonText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Text" />
+
+    <Button
+        android:id="@+id/buttonCall3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Call" />
+</LinearLayout>
